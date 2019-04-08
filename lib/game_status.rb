@@ -35,8 +35,4 @@ end
 def full?(board)
   board.all? do |token|
     token == "X" || token "O"
-return true
-elsif
-  return false
-end
 end

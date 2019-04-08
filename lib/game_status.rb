@@ -36,7 +36,7 @@ def full?(board)
   board.detect do |i|
     if i == " "
 return false
-elsif 
+elsif
   return true
 end
 end

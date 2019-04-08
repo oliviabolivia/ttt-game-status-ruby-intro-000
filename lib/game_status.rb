@@ -31,3 +31,12 @@ def won?(board)
   end
 return false
 end
+
+def full?(board)
+  board.detect do |i|
+    if i == " "
+return false
+elsif 
+  return true
+end
+end

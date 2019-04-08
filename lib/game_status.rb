@@ -21,9 +21,13 @@ def won?(board)
     position_1 = [board[0]]
     position_2 = [board[1]]
     position_3 = [board[2]]
+    if position_1 == "X" && position_2 == "X" && position_3 == "X"
+      return win
+    elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
+      return win
     
-  end
+    end
 
   end
-
+return false 
 end

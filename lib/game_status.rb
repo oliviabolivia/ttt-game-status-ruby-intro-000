@@ -15,3 +15,11 @@ WIN_COMBINATIONS = [
   [0,4,8],
   [2,4,6]
 ]
+
+def won?(board)
+  WIN_COMBINATIONS.detect |combination| do
+    
+  end
+  
+end
+  

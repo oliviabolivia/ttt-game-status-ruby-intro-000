@@ -17,7 +17,12 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.detect |combination| do
+  WIN_COMBINATIONS.each do |win| 
+    position_1 = [board[0]]
+    position_2 = [board[1]]
+    position_3 = [board[2]]
+    
+  end
     
   end
 

@@ -33,8 +33,8 @@ return false
 end
 
 def full?(board)
-  board.detect do |i|
-    if i == " "
+  board.detect do |token|
+    if token == " " || token == nil
 return false
 elsif
   return true
